@@ -1,0 +1,95 @@
+section:has(.menu_nav) {
+  box-shadow: 0px 7px 10px -11px rgba(128, 128, 128, 0.517);
+}
+
+@media (max-width:767px) {
+  .menu_nav {
+    position: fixed;
+    top: 68.5px;
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: all .3s ease;
+    background: white;
+    box-shadow: 0px 7px 10px -11px rgba(128, 128, 128, 0);
+    padding: 0 20px;
+
+    &>div {
+      min-height: 0;
+
+      &>nav,
+      &>div {
+        max-width: max-content;
+        margin: 0 auto;
+      }
+
+      &>nav {
+        margin-bottom: 20px;
+
+        ul li {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+
+  .menu_nav+div:has(a) {
+    transition: all .3s ease;
+    position: relative
+  }
+
+  body:has(input#menu_toggle_btn:checked) .menu_nav {
+    grid-template-rows: 1fr;
+    box-shadow: 0px 7px 10px -11px grey;
+    padding: 20px;
+  }
+
+  body:has(input#menu_toggle_btn:checked) .menu_nav+div:has(a) {
+    opacity: 0;
+    z-index: -10;
+  }
+
+  .menu_toggle_btn>div span {
+    transition: all .3s ease;
+  }
+
+  body:has(input#menu_toggle_btn:checked) .menu_toggle_btn>div span:nth-child(2) {
+    opacity: 0;
+  }
+
+  body:has(input#menu_toggle_btn:checked) .menu_toggle_btn>div span:first-child {
+    transform: rotate(45deg) translate(2.5px, 3px);
+  }
+
+  body:has(input#menu_toggle_btn:checked) .menu_toggle_btn>div span:last-child {
+    transform: rotate(-45deg) translate(2.5px, -3px);
+  }
+}
+
+@media (max-width:500px) {
+  .menu_nav {
+    &>div {
+
+      &>nav,
+      &>div {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      &>nav>ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+
+      &>div {
+        flex-direction: column;
+      }
+    }
+  }
+}

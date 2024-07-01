@@ -1,0 +1,153 @@
+/* Font Awesome CDN */
+@import url('chttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+/* -------------------------------- */
+/* ------- SF PRO TEXT [Font] ----- */
+/* -------------------------------- */
+/* SF Pro Text Black */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* SF Pro Text Black Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* SF Pro Text Bold */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* SF Pro Text Bold Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* SF Pro Text Heavy */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Heavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* SF Pro Text Heavy Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-HeavyItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* SF Pro Text Light */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* SF Pro Text Light Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* SF Pro Text Medium */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* SF Pro Text Medium Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* SF Pro Text Regular */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SF Pro Text Regular Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-RegularItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* SF Pro Text Semibold */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* SF Pro Text Semibold Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-SemiboldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* SF Pro Text Thin */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* SF Pro Text Thin Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* SF Pro Text UltraLight */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-UltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* SF Pro Text UltraLight Italic */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/sf-pro-text/SF-Pro-Text-UltraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
