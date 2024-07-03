@@ -931,6 +931,10 @@ video {
   height: 68px;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .w-1{
   width: 0.25rem;
 }
@@ -1085,6 +1089,30 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'assets\/images\/\'\)\]{
+  background-image: url('assets/images/');
+}
+
+.bg-\[url\(\'assets\/images\/bg\/home-hero-bg\.png\'\)\]{
+  background-image: url('assets/images/bg/home-hero-bg.png');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/images\/bg\/home-hero-bg\.png\'\)\]{
+  background-image: url('../../images/bg/home-hero-bg.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg\/home-hero-bg\.png\'\)\]{
+  background-image: url('../images/bg/home-hero-bg.png');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -1182,6 +1210,14 @@ video {
 
 .pb-16{
   padding-bottom: 4rem;
+}
+
+.pb-1{
+  padding-bottom: 0.25rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
 }
 
 .text-center{
@@ -1362,6 +1398,14 @@ video {
     padding-bottom: 4rem;
   }
 
+  .sm\:pb-1{
+    padding-bottom: 0.25rem;
+  }
+
+  .sm\:pb-6{
+    padding-bottom: 1.5rem;
+  }
+
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1382,6 +1426,10 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:max-w-\[1165px\]{
+    max-width: 1165px;
+  }
+
   .xl\:text-\[56px\]{
     font-size: 56px;
   }
