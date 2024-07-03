@@ -228,5 +228,52 @@
     <!-- ---------------------------- -->
     <!-- Trusted-By Section Ends Here -->
     <!-- ---------------------------- -->
+
+    <section class="bg-white p-6 rounded shadow-md text-center">
+      <h1 class="text-2xl font-bold mb-4"
+        >Please wait, next section will be added in:</h1
+      >
+      <div id="countdown" class="text-3xl font-semibold"> 01:00:00 </div>
+    </section>
+
+    <script>
+      function startCountdown(duration) {
+        let startTime = new Date();
+        startTime.setHours(23, 0, 0);
+
+        let endTime = new Date(startTime.getTime() + duration * 60000);
+
+        function updateTimer() {
+          let now = new Date();
+          let timeDiff = endTime - now;
+
+          if (timeDiff <= 0) {
+            clearInterval(timerInterval);
+            document.getElementById("countdown").textContent = "24:00:00";
+            return;
+          }
+
+          let hours = Math.floor(timeDiff / (1000 * 60 * 60));
+          let minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+          let seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+          document.getElementById("countdown").textContent =
+            (hours < 10 ? "0" : "") +
+            hours +
+            ":" +
+            (minutes < 10 ? "0" : "") +
+            minutes +
+            ":" +
+            (seconds < 10 ? "0" : "") +
+            seconds;
+        }
+
+        updateTimer();
+        let timerInterval = setInterval(updateTimer, 1000);
+      }
+
+      // Start countdown with 60 minutes
+      startCountdown(70);
+    </script>
   </body>
 </html>
